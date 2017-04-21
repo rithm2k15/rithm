@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+
+
+
+<head>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title onclick="document.getElementById('sound').play()" >RITHM2K15</title>
+   <meta name="description" content="">  
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Script
+  =================================================== -->
+  <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+   =================================================== -->
+   <link rel="shortcut icon" href="favicon.png" >
+
+   <!-- Sounds
+   =================================================== -->
+   <audio id="sound" src="click1.WAV"></audio>
+
+
+ </head>
+
+ <body class="homepage">
+
+
+
+     <!-- Header
+   =================================================== -->
+   <header id="main-header">
+      <nav align="middle" id="nav-wrap">         
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+         <span class='menu-text'>Show Menu</span>
+         <span class="menu-icon"></span>
+       </a>
+       <a class="mobile-btn" href="#" title="Hide navigation">
+         <span class='menu-text'>Hide Menu</span>
+         <span class="menu-icon"></span>
+       </a>         
+       <ul id="nav" class="nav">
+         <li onclick="document.getElementById('sound').play()" ><a  href="index.html">|Home|</a></li>
+         <li onclick="document.getElementById('sound').play()" ><a  href="about.html">|About|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"   href="events.html">|Events|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"  href="reg.html">|Registration|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"  href="gg.html">|Gallery|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"  href="team.html">|Our Team|</a></li>
+         <li style="background-color: #f26522;"><a  onclick="document.getElementById('sound').play()" href="contact.html">|Contact|</a></li>
+       </ul> 
+     </div> <!-- /header-inner -->
+   </nav>
+ </div>
+</header> 
+
+
+ 
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+<img style="margin-left:430px;height:200px; width:400px"  src="images/1.png" alt="logo">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+        <h1>Get In Touch With Us<span></span></h1>
+
+        <hr />
+
+        <p style="color:black"><strong>Send us a mail for any queries.</strong>
+        </p>
+
+      </div>
+
+    </div>
+
+    <div style="padding-bottom:500px;" class="row form-section">
+
+     <div id="contact-form" class="twelve columns">
+
+      <form name="contactForm" id="contactForm" method="post" action="">
+
+       <fieldset>
+
+        <div class="row">
+
+         <div class="six columns mob-whole">
+          <label for="contactFname">First Name <span class="required">*</span></label>	      						   
+          <input name="contactFname" type="text" id="contactFname" placeholder="First Name" value="" />	      					
+        </div>
+
+        <div class="six columns mob-whole">	
+          <label for="contactLname">Last Name <span class="required">*</span></label>      						   
+          <input name="contactLname" type="text" id="contactLname" placeholder="Last Name" value="" />	      					
+        </div>	                        
+
+      </div>
+
+      <div class="row">
+
+       <div class="six columns mob-whole">	
+        <label for="contactEmail">Email <span class="required">*</span></label>      						   
+        <input name="contactEmail" type="text" id="contactEmail" placeholder="Email" value="" />	      					
+      </div>
+
+      <div class="six columns mob-whole">	 
+        <label for="contactSubject">Subject</label>     						   
+        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />	      					
+      </div>
+
+    </div>
+
+    <div class="row">
+
+     <div class="twelve columns">
+      <label  for="contactMessage">Message <span class="required">*</span></label>
+      <textarea name="contactMessage"  id="contactMessage" placeholder="Your Message" rows="10" cols="50" ></textarea>
+    </div>
+
+  </div>
+
+  <div>
+   <button class="submit full-width">Send Message</button>
+   <div id="image-loader">
+    <img src="images/loader.gif" alt="" />
+  </div>
+</div>
+
+</fieldset>
+
+</form> <!-- /contactForm -->
+
+<!-- message box -->
+<div id="message-warning"></div>
+<div id="message-success">
+ <i  class="fa fa-check"></i>Your message was sent, thank you!<br />
+</div>
+
+</div> <!-- /contact-form -->      	
+
+</div> <!-- /form-section -->     
+<p style="color:#DF3A01" align="middle" 
+class="copyright">&copy; Copyright @rithm2k15</p>        
+</section>  <!-- /contact-->
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/main.js"></script>
+
+   <script type="text/javascript">
+
+     $(document).ready(function() {
+  
+      $(".nav a").mouseover(function(){
+        document.getElementById("sound").play();
+      });
+});
+   </script>
+
+  
+</body>
+
+</html>

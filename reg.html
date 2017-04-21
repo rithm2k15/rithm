@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+
+
+
+<head>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title onclick="document.getElementById('sound').play()" >RITHM2K15</title>
+   <meta name="description" content="">  
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media-queries.css">         
+  <link href="css/flipTimer.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet" />
+  <!-- Script
+  =================================================== -->
+  <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+   =================================================== -->
+   <link rel="shortcut icon" href="favicon.png" >
+
+   <!-- Sounds
+   =================================================== -->
+   <audio id="sound" src="click1.WAV"></audio>
+
+
+ </head>
+
+ <body class="homepage">
+
+
+   <!-- Header
+   =================================================== -->
+   <header id="main-header">
+    <nav align="middle" id="nav-wrap">         
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+       <span class='menu-text'>Show Menu</span>
+       <span class="menu-icon"></span>
+     </a>
+     <a class="mobile-btn" href="#" title="Hide navigation">
+       <span class='menu-text'>Hide Menu</span>
+       <span class="menu-icon"></span>
+     </a>         
+     <ul id="nav" class="nav">
+       <li onclick="document.getElementById('sound').play()" ><a  href="index.html">|Home|</a></li>
+       <li onclick="document.getElementById('sound').play()" ><a  href="about.html">|About|</a></li>
+       <li><a  onclick="document.getElementById('sound').play()"   href="events.html">|Events|</a></li>
+       <li style="background-color: #f26522;"><a  onclick="document.getElementById('sound').play()"  href="reg.html">|Registration|</a></li>
+       <li><a  onclick="document.getElementById('sound').play()"  href="gg.html">|Gallery|</a></li>
+       <li><a  onclick="document.getElementById('sound').play()"  href="team.html">|Our Team|</a></li>
+       <li><a  onclick="document.getElementById('sound').play()" href="contact.html">|Contact|</a></li>
+     </ul> 
+   </div> <!-- /header-inner -->
+ </nav>
+</div>
+</header> 
+
+
+
+
+
+
+
+   <!-- Services Section
+   ================================================== -->
+   <section id="services">
+    <div class="row section-head">
+
+      <div class="twelve columns">
+        <img align="middle" style="height:200px; width:400px"  src="images/1.png" alt="logo">
+        <p
+        style="
+        font: 24px/1.3 'raleway-semibold', sans-serif;
+        color: black;
+        letter-spacing: -1px;
+        margin-bottom: 36px;
+        text-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+        padding-left:60px;
+        ">Last Date for online registration : 15th March 2015</p>
+        <p style="
+        font: 44px/1.3 'raleway-semibold', sans-serif;
+        color: #f26522;
+        letter-spacing: -1px;
+        margin-bottom: 36px;
+        text-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+        padding-left:60px;
+        "
+
+        >REGISTRATION</p>
+        <form align="middle" action="" name="registerForm" method="post" id="registerForm">
+          <table cellspacing="15" style="margin-left:50px;">
+            <tbody>
+              <tr>
+                <td id="th" ><td><td style="color:#f26522;">Name:</td><td><input type="text" name="regName" id="regName" style="width:350px;"></td></td></td>
+              </tr>
+              <tr>
+                <td id="th" ><td><td style="color:#f26522;">College:</td><td><input type="text" name="regCollege" id="regCollege" style="width:350px;"></td></td></td>
+              </tr>
+
+              <tr>
+                <td id="th" ><td><td style="color:#f26522;">Branch:</td><td><input type="text" name="regBranch" id="regBranch" style="width:350px;"></td></td></td>
+              </tr>
+              
+              <tr>
+                <td id="th"  ><td><td style="color:#f26522;">Event:</td>
+                <td>
+                  <select style="width:350px;"id="regEvent" name="regEvent">
+                    <option   value="null">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -&gt; Select Event &lt;- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </option>
+                    <optgroup label="SPORTS EVENTS">
+                     <option value="Volleyball">Volleyball</option>
+                     <option value="Badminton">Badminton</option>
+                     <option value="Basketball">Basketball</option>
+                     <option value="Table Tennis">Table Tennis</option>
+                     <option value="Chess">Chess</option>
+                     <option value="Carroms">Carroms</option>
+                     <option value="Throwball">Throwball</option>
+                   </optgroup>
+                   <optgroup label="CULTURAL EVENTS">
+                     <option value="Dance">Dance</option>
+                     <option value="Singing">Singing</option>
+                     <option value="Movie Making">Movie Making</option>
+                     <option value="Skit">Skit</option>
+                     <option value="Mime">Mime</option>
+                     <option value="Mimicry">Mimicry</option>
+                   </optgroup>
+                   <optgroup label="TECHNICAL EVENTS">
+                     <option value="Paper Presentation">Paper Presentation</option>
+                     <option value="Poster Presentation">Poster Presentation</option>
+                     <option value="Technical Jam">Technical Jam</option>
+                     <option value="Project Expo">Project Expo</option>
+                     <option value="Quiz">Quiz</option>
+                     <option value="LAN Games">LAN Games</option>
+                     <option value="Googler">Googler</option>
+                   </optgroup>
+                 </select>
+               </td>
+             </td>
+           </td>
+         </tr>
+
+         <tr class="poster">
+          <td id="th" ><td><td style="color:#f26522;">Topic:</td><td><input type="text" name="regEventTopic_po" id="regEventTopic_po" style="width:350px;" ></td></td></td>
+        </tr>
+
+        <tr class="regTopic">
+         <td id="th"  ><td><td style="color:#f26522;">Topic:</td>
+         <td>
+           <select style="width:350px;"id="regEventTopic_pp" name="regEventTopic_pp">
+             <option   value="null">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  -&gt; Select Topic &lt;- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </option>
+             <optgroup label="Mechanical">
+               <option value="Computational Fluid Dynamics">Computational Fluid Dynamics</option>
+               <option value="Nano Technology/ Mechatronics">Nano Technology/ Mechatronics</option>
+               <option value="Recent trends in Manufacturing/ Micro Machining">Recent trends in Manufacturing/ Micro Machining</option>
+               <option value="Optimization Techniques">Optimization Techniques</option>
+               <option value="New Trends in Mechanical Engineering">New Trends in Mechanical Engineering</option>
+             </optgroup>
+             <optgroup label="ECE">
+               <option value="Embedded & Vlsi system Design">Embedded & Vlsi system Design</option>
+               <option value="Signal & Image Processing">Signal & Image Processing</option>
+               <option value="Advanced Digital Communication">Advanced Digital Communication</option>
+               <option value="Latest Trends in Optical & wireless Communication">Latest Trends in Optical & wireless Communication</option>
+               <option value="Antennas & RF Microwave Communication">Antennas & RF Microwave Communication</option>
+               <option value="MEMS & NANO Systems">MEMS & NANO Systems</option>
+               <option value="Medical Electronics & Biomedical Signal Processing">Medical Electronics & Biomedical Signal Processing</option>
+               <option value="Wireless Sensor Networks">Wireless Sensor Networks</option>
+             </optgroup>
+             <optgroup label="EEE">
+               <option value="Renewable energy resources">Renewable energy resources</option>
+               <option value="Advanced power system & FACTS">Advanced power system & FACTS</option>
+               <option value="Smart Grid">Smart Grid</option>
+               <option value="Advanced Electricity Machines">Advanced Electricity Machines</option>
+               <option value="Application oriented power electric system">Application oriented power electric system</option>
+
+             </optgroup>
+             <optgroup label="CSE">
+               <option value="Data Mining">Data Mining</option>
+               <option value="Cloud Computing">Cloud Computing</option>
+               <option value="Image Processing">Image Processing</option>
+               <option value="Android">Android</option>
+               <option value="Network Security">Network Security</option>
+               <option value="Mobile Adhoc Networks">Mobile Adhoc Networks</option>
+               <option value="Mobile Computing">Mobile Computing</option>
+             </optgroup>
+           </select>
+         </td>
+       </td>
+     </td>
+     <tr>
+      <td id="th"  ><td><td style="color:#f26522;">Email:</td><td><input type="text" name="regEmail" id="regEmail" style="width:350px;"></td></td></td>
+    </tr>
+    <tr>
+      <td id="th" ><td><td style="color:#f26522;">Phone No: </td><td><input type="text" name="regMobile" id="regMobile" style="width:350px;"></td></td></td>
+    </tr>
+    
+  </tbody>
+</table>
+<div align="middle" style="padding-right:12%">
+ <button class="submit"  >Register</button>
+ <div id="image-loader">
+  <img src="images/loader.gif" alt="" />
+</div>
+</div>     
+</form>
+<div  id="reg-message-warning"></div>
+<div id="reg-message-success">
+ <i class="fa fa-check"></i>Your registration is successful. Be there at RITHM2K15.<br />
+</div>
+   <p
+   style="
+        font: 24px/1.3 'raleway-semibold', sans-serif;
+        color: black;
+        letter-spacing: -1px;
+        margin-bottom: 36px;
+        text-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+        padding-left:60px;
+        "
+        >People who wish to participate in Paper & Poster Presentation are expected to mail their abstracts to : rithm2k15@regencyengg.com</p>
+</div> <!-- /service-list -->
+</div> <!-- /twelve -->
+
+
+</section> <!-- /services -->   
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/main.js"></script>
+
+   <script type="text/javascript">
+
+     $(document).ready(function() {
+      $(".regTopic").hide();
+      $(".poster").hide();
+      var option = $("#regEvent").val();
+      
+      $(".nav a").mouseover(function(){
+        document.getElementById("sound").play();
+      });
+      $("select").change(  function(){
+
+        var option = $("#regEvent").val();
+        if(option == "Paper Presentation" ){
+          $(".regTopic").show();
+        }
+        else{
+         $(".regTopic").hide();
+       }
+       if(option == "Poster Presentation" ){
+        $(".poster").show();
+      }
+      else{
+       $(".poster").hide();
+     }
+
+   });
+    });
+
+
+
+   </script>
+
+
+
+ </body>
+
+ </html>

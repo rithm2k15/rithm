@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+
+
+
+<head>
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title onclick="document.getElementById('sound').play()" >RITHM2K15</title>
+   <meta name="description" content="">  
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Script
+  =================================================== -->
+  <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+   =================================================== -->
+   <link rel="shortcut icon" href="favicon.png" >
+
+   <!-- Sounds
+   =================================================== -->
+   <audio id="sound" src="click1.WAV"></audio>
+
+
+ </head>
+
+ <body class="homepage">
+
+
+     <!-- Header
+   =================================================== -->
+   <header id="main-header">
+      <nav align="middle" id="nav-wrap">         
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+         <span class='menu-text'>Show Menu</span>
+         <span class="menu-icon"></span>
+       </a>
+       <a class="mobile-btn" href="#" title="Hide navigation">
+         <span class='menu-text'>Hide Menu</span>
+         <span class="menu-icon"></span>
+       </a>         
+       <ul id="nav" class="nav">
+         <li onclick="document.getElementById('sound').play()" ><a  href="index.html">|Home|</a></li>
+         <li onclick="document.getElementById('sound').play()" ><a  href="about.html">|About|</a></li>
+         <li style="background-color: #f26522;"><a  onclick="document.getElementById('sound').play()"   href="events.html">|Events|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"  href="reg.html">|Registration|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"  href="gg.html">|Gallery|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()"  href="team.html">|Our Team|</a></li>
+         <li><a  onclick="document.getElementById('sound').play()" href="contact.html">|Contact|</a></li>
+       </ul> 
+     </div> <!-- /header-inner -->
+   </nav>
+ </div>
+</header> 
+
+
+
+
+
+
+
+   <!-- Portfolio
+   ================================================== -->
+   <section id="portfolio">
+  <img align="middle" style="margin-left:430px;height:200px; width:400px"  src="images/1.png" alt="logo">
+    <div class="row section-head">
+
+     <div class="twelve columns">
+
+      <h1>Events<span>
+        <br>Come - Participate - Win
+      </span></h1>
+
+      <hr />
+<br/>
+    </div>
+
+  </div>
+
+  <div style="padding-left:105px;" class="row items">
+
+   <div class="twelve columns">
+
+
+
+
+     <div class="bgrid item">
+      <div class="item-wrap">
+
+       <a href="sports.html">
+        <img src="images/portfolio/sports.jpg" alt="Sports" width="330px" height="330px">
+        <div class="overlay">
+         <div class="portfolio-item-meta">
+           <h5>Sports</h5>
+           <p>Events</p>
+         </div>
+       </div>                        
+     </a>
+
+   </div>
+ </div> <!-- /item -->
+ <div align="middle" class="bgrid item">
+  <div class="item-wrap">
+
+   <a href="cultural.html">
+    <img src="images/portfolio/cultural.png" alt="Cultural Events" width="330px" height="330px">
+    <div class="overlay">
+     <div class="portfolio-item-meta">
+       <h5>Cultural</h5>
+       <p>Events</p>
+     </div>
+   </div>                        
+ </a>
+
+</div>
+</div> <!-- /item -->
+
+<div class="bgrid item">
+  <div class="item-wrap">
+
+   <a  href="technical.html">                        
+    <img src="images/portfolio/technical.jpg" alt="Techincal Events" width="330px" height="330px">                       
+    <div class="overlay">
+     <div class="portfolio-item-meta">
+       <h5>Technical</h5>
+       <p>Events</p>
+     </div>
+   </div>                        
+ </a>
+
+</div>
+</div> <!-- /item -->
+
+
+
+</div> <!-- /twelve -->
+
+</div>  <!-- /row -->
+
+</section> <!-- /Portfolio -->
+
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>   
+   <script src="js/main.js"></script>
+
+   <script type="text/javascript">
+
+     $(document).ready(function() {
+     
+     
+
+      $(".nav a").mouseover(function(){
+        document.getElementById("sound").play();
+      });
+    });
+   </script>
+
+
+</body>
+
+</html>
